@@ -19,19 +19,18 @@ def main():
     print(f'tax = ${tax:0.2f}')
     print(f'total_cost = ${total_cost:0.2f}')
 
-initial_investment = 1000
-interest_rate = 0.035
-investment = initial_investment
+    initial_investment = 1000
+    interest_rate = 0.035
+    investment = initial_investment
 
 # Apply interest for 5 years
-investment += investment * interest_rate
-investment += investment * interest_rate
-investment += investment * interest_rate
-investment += investment * interest_rate
-investment += investment * interest_rate
+    investment += investment * interest_rate
+    investment += investment * interest_rate
+    investment += investment * interest_rate
+    investment += investment * interest_rate
+    investment += investment * interest_rate
 
-# Print with 2 decimal places 
-print('After 5 years, your investment will be worth ' + str(round(investment, 2)) + ' dollars.')
+    print(f'After 5 years, your investment will be worth ' + str((investment)) + ' dollars.')
 
 if __name__ == "__main__":
     main()
